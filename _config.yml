@@ -1,0 +1,43 @@
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+theme: jekyll-profile-page
+
+# Theme-specific settings
+cover_photo:
+  url: assets/images/cover.jpg
+  alt: "Mountains covered with snow and dark sky in the background"
+
+profile_picture: assets/images/photo.png
+
+author:
+  name: "Your name"
+  occupation: "Your occupation"
+  location:
+    name: "City, Country"
+    url: "https://<optional link to maps>/"
+
+action_button:
+  label: "Call to action button"
+  icon: "fas fa-briefcase"
+
+work:
+  -
+    name: "Workplace"
+    url: "https://<workplace url>"
+
+projects:
+  -
+    name: "This Jekyll theme"
+    url: "https://github.com/jakubkrawczyk/jekyll-profile-page"
+
+social:
+  -
+    url: "https://github.com/<username>"
+    title: "GitHub Profile Page"
+    icon: "fab fa-github"

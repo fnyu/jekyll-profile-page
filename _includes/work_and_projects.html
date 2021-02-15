@@ -1,0 +1,24 @@
+<div id="work-and-projects">
+    <div class="columns is-centered is-mobile">
+        {% if site.work and page.display_work %}
+            <div class="column is-6"><span class="label">Work</span>
+                <ul>
+                    {% for workplace in site.work %}
+                        <li><a href="{{ workplace.url }}" target="_blank">{{ workplace.name }} <i
+                                    class="fas fa-external-link-alt"></i></a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+        {% if site.projects and page.display_projects %}
+            <div class="column is-6"><span class="label">Projects</span>
+                <ul>
+                    {% for project in site.projects %}
+                        <li><a href="{{ project.url }}" target="_blank">{{ project.name }} <i
+                                    class="fas fa-external-link-alt"></i></a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+    </div>
+</div>

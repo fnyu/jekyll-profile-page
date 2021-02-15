@@ -1,0 +1,27 @@
+---
+layout: base
+---
+
+<div id="profile-details">
+    <h1 class="title extra-line">{{ site.author.name }}</h1>
+    <h2 class="subtitle extra-line">{{ site.author.occupation }}
+        {% if site.author.location %} from
+            {% if site.author.location.url %}
+                <a href="{{ site.author.location.url }}" target="_blank">{{ site.author.location.name }} <i class="fas fa-external-link-alt"></i></a>
+            {% else %}
+                {{ site.author.location.name }}
+            {% endif %}
+        {% endif %}
+    </h2>
+</div>
+
+{% if site.action_button %}
+    <div id="action-button">
+        <button id="action" class="button is-info is-fullwidth"><span class="icon"><i
+                    class="{{ site.action_button.icon }}"></i></span>&nbsp;&nbsp;&nbsp;{{ site.action_button.label }}</button>
+    </div>
+{% endif %}
+
+<div id="profile-summary" class="content">
+    {{ content }}
+</div>

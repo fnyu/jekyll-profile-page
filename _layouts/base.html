@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+    <div class="columns is-gapless is-centered is-mobile">
+        <div id="main" class="column is-4-fullhd is-6-widescreen is-10-tablet is-11-mobile">
+            {% include cover_photo.html %}
+
+            {% if page.display_profile_picture %}
+                {% include profile_picture.html %}
+            {% endif %}
+
+            <div class="columns is-centered is-mobile">
+                <div class="column is-10-desktop is-10-mobile is-9-tablet">
+                    {{ content }}
+
+                    {% if page.display_work or page.display_projects %}
+                        {% include work_and_projects.html %}
+                    {% endif %}
+
+                    {% if page.display_social_media %}
+                        {% include social_media.html %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+/**
+ * Colors definition
+ */
+$lightGrey              : #EBEBEB;
+$darkGrey               : #ABABAB;
+$darkerGrey             : #666666;
+$lightBlue              : #0052A2;
+$darkBlue               : #2A2A72;
+$darkerBlue             : #000B18;
+$white                  : #FFFFFF;
+
+/**
+ * Background settings
+ */
+$bgColor                : $darkBlue;
+$bgGradientStart        : $darkerBlue;
+$bgGradientEnd          : $lightBlue;
+$bgImage                : linear-gradient(315deg, $bgGradientStart 0%, $bgGradientEnd 74%);
+
+/**
+ * Container settings
+ */
+$containerBgColor       : $white;
+
+/**
+ * Profile Picture settings
+ */
+$profilePicBorderColor  : $white;
+
+/**
+ * Content settings
+ */
+$labelColor             : $darkGrey;
