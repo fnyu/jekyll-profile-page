@@ -27,17 +27,14 @@ action_button:
   icon: "fas fa-briefcase"
 
 work:
-  -
-    name: "Workplace"
+  - name: "Workplace"
     url: "https://<workplace url>"
 
 projects:
-  -
-    name: "This Jekyll theme"
-    url: "https://github.com/jakubkrawczyk/jekyll-profile-page"
+  - name: "This Jekyll theme"
+    url: "https://github.com/fnyu/jekyll-profile-page"
 
 social:
-  -
-    url: "https://github.com/<username>"
+  - url: "https://github.com/<username>"
     title: "GitHub Profile Page"
     icon: "fab fa-github"

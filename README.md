@@ -20,7 +20,7 @@ This is a simple Jekyll theme for building profile pages.
 If you wish to use this theme in GitHub Pages, you need to specify `main` branch in order to get the newest version:
 
 ```yaml
-remote_theme: jakubkrawczyk/jekyll-profile-page@main
+remote_theme: fnyu/jekyll-profile-page@main
 ```
 
 ### Screenshot
@@ -61,7 +61,7 @@ work:
 projects:
   -
     name: "This Jekyll theme"
-    url: "https://github.com/jakubkrawczyk/jekyll-profile-page"
+    url: "https://github.com/fnyu/jekyll-profile-page"
 
 # Social media are optional
 # You can use any icon from Font Awesome Brands Pack
@@ -80,4 +80,4 @@ social:
 
 ### License
 
-This work is published under [MIT](https://github.com/jakubkrawczyk/jekyll-profile-page/blob/master/LICENSE.txt) License.
+This work is published under [MIT](https://github.com/fnyu/jekyll-profile-page/blob/master/LICENSE.txt) License.
